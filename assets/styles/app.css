@@ -1,3 +1,9 @@
-body {
-    background-color: skyblue;
+*{
+    text-align: center;
+    background-color: rgb(12, 88, 115);
+    color: beige;
+    font-size: 150%;
+}
+p {
+    font-size: 100%;
 }

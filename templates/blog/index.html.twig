@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello BlogController!{% endblock %}
+
+{% block body %}
+<div {{ react_component('Hello', { fullName: 'le sel de gauche' } ) }}/>
+{% endblock %}

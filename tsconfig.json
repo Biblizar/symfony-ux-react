@@ -1,6 +1,10 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
+      "allowSyntheticDefaultImports":true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
       "sourceMap": true,
       "moduleResolution": "node",
       "lib": ["dom", "es2015", "es2016"],
